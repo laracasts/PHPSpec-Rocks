@@ -10,7 +10,7 @@ class MovieSpec extends ObjectBehavior
     function let()
     {
         $this->beConstructedWith('Back to the Future');
-        $this->shouldHaveType('Movie');
+        $this->shouldHaveType('Movie'); // this can be in its own method if you want
     }
 
     function it_can_be_rated()
